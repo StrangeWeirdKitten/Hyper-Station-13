@@ -2,6 +2,7 @@ name: Run Linters
 
 on:
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   linters:
