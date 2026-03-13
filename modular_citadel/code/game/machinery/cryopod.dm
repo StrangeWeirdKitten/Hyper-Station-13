@@ -189,8 +189,9 @@
 //START OF GATE\\
 //This is simply an alternative method of leaving the round. Still uses the same cryo-console.\\
 //Instead of freezing yourself, you may simply just leave the station.\\
-//Short range teleport gang.\\
+//Short range teleport gang.
 */
+
 /obj/machinery/cryopod/gate
 	name = "short-range gateway"
 	desc = "A gateway that leads to a nearby location. You may use this to depart."//Not arrive, because we have the shuttle. Or something. I 'unno. It's jank.

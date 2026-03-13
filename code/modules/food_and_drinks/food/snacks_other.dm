@@ -269,7 +269,7 @@
 	bitesize = 0.1
 	foodtype = JUNKFOOD | SUGAR
 	
-	var is_wrapped = 1
+	var/is_wrapped = 1
 
 /obj/item/reagent_containers/food/snacks/choccogun/afterattack(user)
 	if (is_wrapped == 1)

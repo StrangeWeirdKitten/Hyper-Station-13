@@ -29,10 +29,10 @@
 		CRASH("Invalid hook '/hook/[hook]' called.")
 		return 0
 
-	var/caller = new hook_path
+	var/caller1 = new hook_path
 	var/status = 1
 	for(var/P in typesof("[hook_path]/proc"))
-		if(!call(caller, P)(arglist(args)))
+		if(!call(caller1, P)(arglist(args)))
 			CRASH("Hook '[P]' failed or runtimed.")
 			status = 0
 
